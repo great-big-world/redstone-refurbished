@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "y": 270,
+      "model": "redstone_refurbished:block/receptor"
+    },
+    "facing=north": {
+      "y": 180,
+      "model": "redstone_refurbished:block/receptor"
+    },
+    "facing=south": {
+      "model": "redstone_refurbished:block/receptor"
+    },
+    "facing=west": {
+      "y": 90,
+      "model": "redstone_refurbished:block/receptor"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.creoii.redstone_refurbished.main.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "com.github.creoii.redstone_refurbished.main.mixin.RedstoneWireBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

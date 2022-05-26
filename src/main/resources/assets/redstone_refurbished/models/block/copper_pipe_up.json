@@ -1,0 +1,23 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"pipe": "redstone_refurbished:block/copper_pipe",
+		"end": "redstone_refurbished:block/copper_pipe",
+		"particle": "#pipe"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 0],
+			"to": [12, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#pipe"},
+				"east": {"uv": [0, 2, 16, 6], "texture": "#pipe"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#pipe"},
+				"west": {"uv": [0, 2, 16, 6], "texture": "#pipe"},
+				"up": {"uv": [0, 0, 8, 4], "texture": "#end"},
+				"down": {"uv": [0, 0, 8, 4], "texture": "#end"}
+			}
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "redstone_refurbished",
+  "version": "${version}",
+  "name": "RedstoneRefurbished",
+  "description": "",
+  "authors": [
+    "creoii"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/redstone_refurbished/icon.png",
+  "environment": "*",
+  "accessWidener" : "redstone_refurbished.accesswidener",
+  "entrypoints": {
+    "client": [
+      "io.github.creoii.redstone_refurbished.client.RedstoneRefurbishedClient"
+    ],
+    "main": [
+      "io.github.creoii.redstone_refurbished.main.RedstoneRefurbished"
+    ]
+  },
+  "mixins": [
+    "redstone_refurbished.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.5",
+    "minecraft": "1.18.2"
+  }
+}

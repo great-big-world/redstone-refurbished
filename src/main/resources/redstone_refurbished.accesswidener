@@ -1,0 +1,2 @@
+accessWidener v1 named
+mutable field net/minecraft/block/RedstoneWireBlock DIRECTION_TO_WIRE_CONNECTION_PROPERTY Ljava/util/Map;

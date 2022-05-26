@@ -1,0 +1,35 @@
+{
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"pipe": "redstone_refurbished:block/copper_pipe",
+		"end": "redstone_refurbished:block/copper_pipe_end",
+		"particle": "#pipe"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 4],
+			"to": [16, 12, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#pipe"},
+				"east": {"uv": [0, 0, 8, 4], "texture": "#end"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#pipe"},
+				"west": {"uv": [0, 0, 8, 4], "texture": "#end"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#pipe"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#pipe"}
+			}
+		},
+		{
+			"from": [0, 4.01, 4],
+			"to": [16, 8.01, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "rotation": 180, "texture": "#pipe"},
+				"east": {"uv": [0, 0, 8, 4], "rotation": 180, "texture": "#end"},
+				"south": {"uv": [0, 0, 16, 4], "rotation": 180, "texture": "#pipe"},
+				"west": {"uv": [0, 0, 8, 4], "rotation": 180, "texture": "#end"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#pipe"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#pipe"}
+			}
+		}
+	]
+}
